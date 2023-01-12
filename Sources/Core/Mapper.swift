@@ -9,3 +9,4 @@ public protocol Mapper {
     func transformResponseToEntity(request: Request?, response: Response) -> Entity
     func transformEntityToDomain(entity: Entity) -> Domain
 }
+
